@@ -4,14 +4,14 @@ from matplotlib import pyplot as plt
 
 imagepath = r'OpenCv/image0.jpg'
 dir_cascade_file = r'OpenCv/opencv/haarcascades_cuda/'
-cascade_file = dir_cascade_file + "haarcascade_frontalface_default.xml"
+cascade_file = dir_cascade_file + "haarcascade_frontalface_alt.xml"
 class_cascade = cv2.CascadeClassifier(cascade_file)
-imageRGB = cv2.imread(imagepath)
-plt.imshow(imageRGB)
+imageBGR = cv2.imread(imagepath)
+plt.imshow(imageBGR[:,:,::-1])
 plt.axis('off')
 plt.show()
 
-image_gray = cv2.cvtColor(imageRGB, cv2.COLOR_BGR2GRAY)
+image_gray = cv2.cvtColor(imageBGR, cv2.COLOR_BGR2GRAY)
 
 plt.imshow(image_gray)
 plt.axis('off')
@@ -27,8 +27,8 @@ faces = class_cascade.detectMultiScale(
 
 print('il y a {0} de visages'.format(len(faces)))
 for (x, y, w, h) in faces:
-    cv2.rectangle(imageRGB, (x, y), (w + x, y + h), (0, 255, 0), 2)
+    cv2.rectangle(imageBGR, (x, y), (w + x, y + h), (0, 255, 0), 2)
 
-plt.imshow(imageRGB)
+plt.imshow(imageBGR[:,:,::-1])
 plt.axis('off')
 plt.show()

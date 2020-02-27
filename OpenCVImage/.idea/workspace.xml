@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6f43ad4-cab3-43f9-ae29-e86143161015" name="Default Changelist" comment="" />
+    <list default="true" id="d6f43ad4-cab3-43f9-ae29-e86143161015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Xkt2SEpJXbRVq1jO0wvKKOYnfx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +30,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCVImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,9 +110,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.webcam" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +145,7 @@
       <workItem from="1581612928763" duration="68000" />
       <workItem from="1582808522295" duration="358000" />
       <workItem from="1582809120362" duration="507000" />
+      <workItem from="1582810662651" duration="533000" />
     </task>
     <servers />
   </component>
@@ -146,22 +157,22 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="359" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1581609287680" />
-    <state width="1750" height="265" key="GridCell.Tab.0.bottom" timestamp="1582809575687">
+    <state width="1750" height="265" key="GridCell.Tab.0.bottom" timestamp="1582811197000">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1582809575687" />
-    <state width="1750" height="265" key="GridCell.Tab.0.center" timestamp="1582809575686">
+    <state width="1750" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1582811197000" />
+    <state width="1750" height="265" key="GridCell.Tab.0.center" timestamp="1582811196999">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="265" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1582809575686" />
-    <state width="1750" height="265" key="GridCell.Tab.0.left" timestamp="1582809575686">
+    <state width="1750" height="265" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1582811196999" />
+    <state width="1750" height="265" key="GridCell.Tab.0.left" timestamp="1582811196998">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="265" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1582809575686" />
-    <state width="1750" height="265" key="GridCell.Tab.0.right" timestamp="1582809575686">
+    <state width="1750" height="265" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1582811196998" />
+    <state width="1750" height="265" key="GridCell.Tab.0.right" timestamp="1582811196999">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="265" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1582809575686" />
+    <state width="1750" height="265" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1582811196999" />
     <state width="1358" height="328" key="GridCell.Tab.1.bottom" timestamp="1581611925122">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
@@ -184,8 +195,8 @@
     <state x="396" y="174" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1581611923916" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OpenCVImage$main.coverage" NAME="main Coverage Results" MODIFIED="1582809272197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenCVImage$test.coverage" NAME="test Coverage Results" MODIFIED="1582809575678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCVImage$main.coverage" NAME="main Coverage Results" MODIFIED="1582811196992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCVImage$test.coverage" NAME="test Coverage Results" MODIFIED="1582810785917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCVImage$webcam.coverage" NAME="webcam Coverage Results" MODIFIED="1582809300561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
